@@ -14,6 +14,9 @@ Thanks Simon Liang for his tutorial [here](https://www.divby0.io/posts/slack-bot
 
 ## How to ask ChatGPT
 **- Method 1:** Mention app in message with your prompt.</br>
-For example: @AI Assistant write a promise function in javascript.
+For example: `@AI Assistant write a promise function in javascript.`
 
 **- Method 2:** Send your prompt to app messages directly
+
+## Note
+The execution timeout for serverless functions is limited to 10s in Vercel's free plan. To avoid this limitation, please consider upgrading to a paid plan or deploying to your own server.
